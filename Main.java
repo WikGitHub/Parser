@@ -32,7 +32,7 @@ class Main {
 		// Below is the kind of code you might want to write to test your parser
 
 		ContextFreeGrammar cfg = ContextFreeGrammar.simpleCNF();
-		Word testString = new Word("01");
+		Word testString = new Word("0101110");
 
 		// this should print true!
 		System.out.println(parser.isInLanguage(cfg, testString));
